@@ -7,8 +7,8 @@ const FILES_TO_CACHE = [
   "./CSS/main.css",
   "./JS/main.js",
   "./JSON/mainfest.json",
-  "./icon-192.png",
-  "./icon-512.png"
+  "./IMGS/icon-192.png",
+  "./IMGS/icon-512.png"
 ];
 
 // تثبيت الـ service worker وتخزين الملفات الأساسية
