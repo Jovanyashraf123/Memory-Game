@@ -46,15 +46,20 @@ img {
   border: 2px solid #d4a24c;
   color: #d4a24c;
   font-weight: bold;
+  display: flex;
 }
 .name {
   float: left;
   width: 50%;
+  display: flex;
+  align-items: center;
 }
 .tries {
   float: right;
   width: 50%;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 .memory-game-block {
   display: flex;
@@ -153,11 +158,20 @@ img {
     font-size: 15px;
     padding: 8px;
   }
+  #installBtn {
+    background-color: #d4a24c;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+  }
   .name,
   .tries {
-    width: 100%;
     float: none;
     text-align: center;
+    font-size: 11px;
   }
   .game-box {
     flex: 1 0 80px;
@@ -186,4 +200,20 @@ img {
     width: 64px;
     height: 64px;
   }
+}
+#installBtn {
+  background-color: #d4a24c;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#installBtn :focus {
+  outline: none;
+}
+#installBtn:hover {
+  background-color: #d4a24c;
+  color: white;
+  box-shadow: 0 4px 12px rgba(26, 188, 156, 0.4);
 }
